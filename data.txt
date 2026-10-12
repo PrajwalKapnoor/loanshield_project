@@ -1,0 +1,11 @@
+"Attention Is All You Need" is the seminal 2017 paper by Ashish Vaswani et al. from Google Brain that introduced the Transformer architecture, replacing recurrent neural networks with self-attention mechanisms to process data in parallel. 
+
+Key Performance Metrics
+English-to-German Translation: Achieved 28.4 BLEU on the WMT 2014 dataset, outperforming previous best ensembles by over 2 BLEU.
+English-to-French Translation: Established a new single-model state-of-the-art with 41.0 BLEU, using significantly less training cost than competitors. 
+Training Efficiency: The large model trained for only 3.5 days on 8 NVIDIA P100 GPUs, requiring a small fraction of the floating-point operations (FLOPs) of prior state-of-the-art models. 
+Architectural Details
+Core Innovation: The model dispenses with recurrence and convolutions entirely, relying solely on multi-head self-attention and feed-forward networks.
+Base Model Configuration: Used 6 encoder/decoder layers, 512-dimensional embeddings, 8 attention heads, and a hidden dimension of 2048.
+Regularization: Employed dropout (0.1), label smoothing (0.1), and sinusoidal positional encodings to help the model generalize and avoid overfitting. 
+Impact: As of 2026, the paper has been cited more than 250,000 times, making it one of the most-cited papers of the 21st century and the foundation for modern generative AI models like BERT and GPT. 
