@@ -9,3 +9,4 @@ Core Innovation: The model dispenses with recurrence and convolutions entirely, 
 Base Model Configuration: Used 6 encoder/decoder layers, 512-dimensional embeddings, 8 attention heads, and a hidden dimension of 2048.
 Regularization: Employed dropout (0.1), label smoothing (0.1), and sinusoidal positional encodings to help the model generalize and avoid overfitting. 
 Impact: As of 2026, the paper has been cited more than 250,000 times, making it one of the most-cited papers of the 21st century and the foundation for modern generative AI models like BERT and GPT. 
+
