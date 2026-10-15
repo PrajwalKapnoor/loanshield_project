@@ -87,7 +87,6 @@ def threshold_info():
         "fraud_rate":      meta["fraud_rate"],
     }
 
-
 @app.post("/predict")
 def predict(loan: LoanApplication):
     data    = loan.model_dump()
