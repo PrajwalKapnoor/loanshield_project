@@ -70,9 +70,7 @@ loanshield-fraud-detection/
 ├── outputs/figures/          ← Paste 3 PNG charts here (from notebook)
 └── data/processed/           ← Paste hmeq_clean.csv here
 ```
-
 ---
-
 ## How to Run Locally
 
 ```bash
